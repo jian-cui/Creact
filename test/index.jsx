@@ -18,7 +18,7 @@ class Button extends Component {
     const classes = classNames(className, 'button');
     console.log(classes);
     return (
-      <a href = "javascript;" className = { classes }>111</a>
+      <a href = "javascript:;" className = { classes }>111</a>
     )
   }
 }
